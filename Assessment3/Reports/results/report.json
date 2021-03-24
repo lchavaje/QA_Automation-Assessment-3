@@ -1,0 +1,114 @@
+{
+  "aggregate": {
+    "timestamp": "2021-03-24T16:58:00.481Z",
+    "scenariosCreated": 3,
+    "scenariosCompleted": 3,
+    "requestsCompleted": 27,
+    "latency": {
+      "min": 173.9,
+      "max": 933,
+      "median": 550.5,
+      "p95": 919.1,
+      "p99": 933
+    },
+    "rps": {
+      "count": 27,
+      "mean": 3.61
+    },
+    "scenarioDuration": {
+      "min": 3859.5,
+      "max": 5446.1,
+      "median": 5093.5,
+      "p95": 5446.1,
+      "p99": 5446.1
+    },
+    "scenarioCounts": {
+      "0": 3
+    },
+    "errors": {},
+    "codes": {
+      "200": 12,
+      "204": 15
+    },
+    "matches": 0,
+    "customStats": {},
+    "counters": {},
+    "scenariosAvoided": 0,
+    "phases": [
+      {
+        "duration": 3,
+        "arrivalRate": 1,
+        "name": "Phase 1"
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2021-03-24T16:58:00.479Z",
+      "scenariosCreated": 3,
+      "scenariosCompleted": 3,
+      "requestsCompleted": 27,
+      "latency": {
+        "min": 173.9,
+        "max": 933,
+        "median": 550.5,
+        "p95": 919.1,
+        "p99": 933
+      },
+      "rps": {
+        "count": 27,
+        "mean": 3.61
+      },
+      "scenarioDuration": {
+        "min": 3859.5,
+        "max": 5446.1,
+        "median": 5093.5,
+        "p95": 5446.1,
+        "p99": 5446.1
+      },
+      "scenarioCounts": {
+        "0": 3
+      },
+      "errors": {},
+      "codes": {
+        "200": 12,
+        "204": 15
+      },
+      "matches": 0,
+      "latencies": [
+        566565172,
+        184310215,
+        384178804,
+        173877940,
+        707992173,
+        378445093,
+        185967697,
+        513464319,
+        763262794,
+        863583276,
+        679954896,
+        183000193,
+        181384382,
+        400472984,
+        551196350,
+        845450393,
+        300079368,
+        511281431,
+        472289749,
+        548668743,
+        550453251,
+        686380457,
+        933025094,
+        916601763,
+        570702128,
+        610372110,
+        632178429
+      ],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    }
+  ]
+}
